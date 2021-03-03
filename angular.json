@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "carvajal-prueba-tecnica-frontEnd"
+    }
+  },
+  "defaultProject": "carvajal-prueba-tecnica-frontEnd",
+  "cli": {
+    "analytics": "3faa32bf-8a9c-4459-a02b-d496f17491c1"
+  }
 }

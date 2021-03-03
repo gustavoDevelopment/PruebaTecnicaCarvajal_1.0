@@ -1,0 +1,31 @@
+<div class="container"> 
+    <input type="text" [(ngModel)]="nmrFctr" class="form-control col-md-6 col-xs-12 mb-2"  placeholder="Numero de Factura"/>
+    <input type="text" [(ngModel)]="ntClnt"  class="form-control col-md-6 col-xs-12 mb-2" placeholder="Nit de cliente"/>
+    <button (click)="consultar()" type="button" class="btn btn-dark mb-2 mx-2">Consultar</button>
+    <button (click)="getFacturas()" type="button" class="btn btn-dark mb-2 mx-2">Consultar Todas</button>
+    <div class="card">
+        <h3 class="text-center">Facturas disponibles</h3>        
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <th># Factura</th>
+                    <th>Nit Cliente</th>
+                    <th>Nombre</th>
+                    <th>Fecha</th>
+                    <th>Valor</th>
+                    <th>Estado</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor ="let factura of facturas">
+                        <td >{{factura.numeroFactura}}</td>
+                        <td >{{factura.nitCliente}}</td>
+                        <td >{{factura.nombre}}</td>
+                        <td >{{factura.fecha | date:"dd/MM/yyyy HH:mm:ss"}} </td>
+                        <td >{{factura.valor}}</td>
+                        <td >{{factura.estado}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
