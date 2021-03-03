@@ -43,7 +43,7 @@ Este comando "npm start" desplegará de forma local la aplicación, la cual por 
 
 ## Autores ✒️
 
-* **Gustavo Adolfo Lopez Mendieta - Shark 426** - *Desarrrollados* - [Hackail](https://github.com/gustavoDevelopment)
+* **Gustavo Adolfo Lopez Mendieta - Shark 426** - *Desarrrollados* - [Shark-426](https://github.com/gustavoDevelopment)
 
 ---
-⌨️ con ❤️ por [Shark426](https://github.com/gustavoDevelopment) 😊
+⌨️ con ❤️ por [Shark-426](https://github.com/gustavoDevelopment) 😊
